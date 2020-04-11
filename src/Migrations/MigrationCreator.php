@@ -8,6 +8,16 @@ use Illuminate\Database\Migrations\MigrationCreator as BaseMigrationCreator;
 class MigrationCreator extends BaseMigrationCreator
 {
     /**
+     * MigrationCreator constructor.
+     * @param Filesystem $files
+     * @param null $customStubPath
+     */
+    public function __construct(Filesystem $files, $customStubPath = null)
+    {
+        parent::__construct($files, $customStubPath);
+    }
+    
+    /**
      * Create a new migration at the given path.
      *
      * @param string $name
