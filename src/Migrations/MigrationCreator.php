@@ -2,6 +2,7 @@
 
 namespace DariusIII\LaravelDatabaseTrigger\Migrations;
 
+use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
 use Illuminate\Database\Migrations\MigrationCreator as BaseMigrationCreator;
 
