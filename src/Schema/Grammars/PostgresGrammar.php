@@ -2,11 +2,11 @@
 
 namespace Delt4Nin3\LaravelDatabaseTrigger\Schema\Grammars;
 
-use InvalidArgumentException;
-use Illuminate\Support\Fluent;
+use Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Grammars\Grammar;
-use Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint;
+use Illuminate\Support\Fluent;
+use InvalidArgumentException;
 
 class PostgresGrammar extends Grammar
 {
