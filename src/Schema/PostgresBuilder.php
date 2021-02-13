@@ -3,8 +3,8 @@
 namespace Delt4Nin3\LaravelDatabaseTrigger\Schema;
 
 use Closure;
-use Illuminate\Database\Connection;
 use Delt4Nin3\LaravelDatabaseTrigger\Schema\Grammars\PostgresGrammar;
+use Illuminate\Database\Connection;
 
 class PostgresBuilder
 {
