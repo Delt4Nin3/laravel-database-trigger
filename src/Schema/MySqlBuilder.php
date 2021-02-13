@@ -3,8 +3,8 @@
 namespace Delt4Nin3\LaravelDatabaseTrigger\Schema;
 
 use Closure;
-use Illuminate\Database\Connection;
 use Delt4Nin3\LaravelDatabaseTrigger\Schema\Grammars\MySqlGrammar;
+use Illuminate\Database\Connection;
 
 class MySqlBuilder
 {

@@ -2,9 +2,9 @@
 
 namespace Delt4Nin3\LaravelDatabaseTrigger\Test;
 
+use Delt4Nin3\LaravelDatabaseTrigger\Schema\MySqlBuilder as Builder;
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
-use Delt4Nin3\LaravelDatabaseTrigger\Schema\MySqlBuilder as Builder;
 
 class MySqlBuilderTest extends TestCase
 {
