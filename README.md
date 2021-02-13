@@ -2,8 +2,8 @@ Add database trigger to laravel migrations
 ==========================================
 
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
-[![Build Status](https://img.shields.io/travis/DariusIII/laravel-database-trigger.svg?style=flat-square)](https://travis-ci.org/DariusIII/laravel-database-trigger)
-[![StyleCI](https://github.styleci.io/repos/7548986/shield)](https://styleci.io/repos/7548986)
+[![Build Status](https://img.shields.io/travis/Delt4Nin3/laravel-database-trigger.svg?style=flat-square)](https://travis-ci.org/Delt4Nin3/laravel-database-trigger)
+[![StyleCI](https://github.styleci.io/repos/7548986/shield)](https://styleci.io/repos/338631144)
 
 Laravel Database Trigger provides a way to add database trigger to laravel migrations just like you would with database table. 
 A trigger is a named database object that is associated with a table, and that activates when a particular event occurs for the table. Read more about triggers [here](https://dev.mysql.com/doc/refman/8.0/en/triggers.html).
@@ -11,16 +11,16 @@ A trigger is a named database object that is associated with a table, and that a
 
 ## Installation
 
-Laravel Database Trigger requires at least [PHP](https://php.net) 7.1. This particular version supports laravel at least v5.5.
+Laravel Database Trigger requires at least [PHP](https://php.net) 7.2. This particular version supports laravel at least v5.8.
 The package currently supports MySQL only.
 
 To get the latest version, simply require the package using [Composer](https://getcomposer.org):
 
 ```bash
-$ composer require ntimyeboah/laravel-database-trigger
+$ composer require delt4nin3/laravel-database-trigger
 ```
 
-Once installed, if you are not using automatic package discovery, then you need to register the `DariusIII\LaravelDatabaseTrigger\TriggerServiceProvider` service provider in your `config/app.php`.
+Once installed, if you are not using automatic package discovery, then you need to register the `Delt4Nin3\LaravelDatabaseTrigger\TriggerServiceProvider` service provider in your `config/app.php`.
 
 
 ## Usage
@@ -56,7 +56,7 @@ The following trigger migration file will be generated for a trigger that uses `
 ```php
 
 use Illuminate\Database\Migrations\Migration;
-use DariusIII\LaravelDatabaseTrigger\TriggerFacade as Schema;
+use Delt4Nin3\LaravelDatabaseTrigger\TriggerFacade as Schema;
 
 class CreateAfterUsersUpdateTrigger extends Migration
 {
@@ -127,17 +127,15 @@ $ composer test
 
 ## Changelog
 
-Please see [CHANGELOG](https://github.com/DariusIII/laravel-database-trigger/blob/master/CHANGELOG.md) for more information on what has changed recently.
+Please see [CHANGELOG](https://github.com/Delt4Nin3/laravel-database-trigger/blob/master/CHANGELOG.md) for more information on what has changed recently.
 
 ## Contributing
 
-Please see [CONTRIBUTING](https://github.com/DariusIII/laravel-database-trigger/blob/master/CONTRIBUTING.md) for details.
-
+Please see [CONTRIBUTING](https://github.com/Delt4Nin3/laravel-database-trigger/blob/master/CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover a security vulnerability within this package, please send an e-mail to Ntim Yeboah at ntimobedyeboah@gmail.com. All security vulnerabilities will be promptly addressed.
-
+If you discover a security vulnerability within this package, please send an e-mail to Alexander Anding at alexander.anding@gmail.com. All security vulnerabilities will be promptly addressed.
 
 ## License
 

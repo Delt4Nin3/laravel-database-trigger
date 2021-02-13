@@ -1,6 +1,6 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger;
+namespace Delt4Nin3\LaravelDatabaseTrigger;
 
 use Illuminate\Support\Facades\Facade;
 

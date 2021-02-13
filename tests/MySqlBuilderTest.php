@@ -1,10 +1,10 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger\Test;
+namespace Delt4Nin3\LaravelDatabaseTrigger\Test;
 
 use Mockery as m;
 use PHPUnit\Framework\TestCase;
-use DariusIII\LaravelDatabaseTrigger\Schema\MySqlBuilder as Builder;
+use Delt4Nin3\LaravelDatabaseTrigger\Schema\MySqlBuilder as Builder;
 
 class MySqlBuilderTest extends TestCase
 {

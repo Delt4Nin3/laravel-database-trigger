@@ -1,12 +1,13 @@
 {
-    "name": "dariusiii/laravel-database-trigger",
+    "name": "delt4nin3/laravel-database-trigger",
     "description": "A package to add database trigger to laravel migrations",
     "keywords": [
         "NtimYeboah",
         "trigger",
         "database",
         "laravel-database-trigger",
-        "DariusIII"
+        "DariusIII",
+        "Delt4Nin3"
     ],
     "license": "MIT",
     "authors": [
@@ -14,10 +15,15 @@
             "name": "Ntim Yeboah",
             "email": "ntimobedyeboah@gmail.com",
             "role": "Developer"
+        },
+        {
+            "name": "Alexander Anding",
+            "email": "alexander.anding@gmail.com",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.2",
+        "php": "^7.2|^8.0",
         "laravel/framework": "^5.8|^6.0|^7.0|^8.0"
     },
     "require-dev": {
@@ -26,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "DariusIII\\LaravelDatabaseTrigger\\": "src"
+            "Delt4Nin3\\LaravelDatabaseTrigger\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "DariusIII\\LaravelDatabaseTrigger\\Test\\": "tests"
+            "Delt4Nin3\\LaravelDatabaseTrigger\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -43,7 +49,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "DariusIII\\LaravelDatabaseTrigger\\TriggerServiceProvider"
+                "Delt4Nin3\\LaravelDatabaseTrigger\\TriggerServiceProvider"
             ]
         }
     }

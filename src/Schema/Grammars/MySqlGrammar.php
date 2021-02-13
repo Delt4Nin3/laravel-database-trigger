@@ -1,12 +1,12 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger\Schema\Grammars;
+namespace Delt4Nin3\LaravelDatabaseTrigger\Schema\Grammars;
 
 use InvalidArgumentException;
 use Illuminate\Support\Fluent;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Grammars\Grammar;
-use DariusIII\LaravelDatabaseTrigger\Schema\Blueprint;
+use Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint;
 
 class MySqlGrammar extends Grammar
 {

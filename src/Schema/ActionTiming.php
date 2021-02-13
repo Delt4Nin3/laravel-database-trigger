@@ -1,6 +1,6 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger\Schema;
+namespace Delt4Nin3\LaravelDatabaseTrigger\Schema;
 
 class ActionTiming
 {

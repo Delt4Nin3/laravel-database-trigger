@@ -1,6 +1,6 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger\Migrations;
+namespace Delt4Nin3\LaravelDatabaseTrigger\Migrations;
 
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;

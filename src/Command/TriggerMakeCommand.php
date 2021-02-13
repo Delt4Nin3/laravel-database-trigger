@@ -1,11 +1,11 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger\Command;
+namespace Delt4Nin3\LaravelDatabaseTrigger\Command;
 
 use Illuminate\Support\Str;
 use Illuminate\Support\Composer;
 use Illuminate\Database\Console\Migrations\BaseCommand;
-use DariusIII\LaravelDatabaseTrigger\Migrations\MigrationCreator;
+use Delt4Nin3\LaravelDatabaseTrigger\Migrations\MigrationCreator;
 
 class TriggerMakeCommand extends BaseCommand
 {
@@ -28,7 +28,7 @@ class TriggerMakeCommand extends BaseCommand
     /**
      * Migration creator instance.
      *
-     * @var \DariusIII\LaravelDatabaseTriggers\Migrations\MigrationCreator;
+     * @var \Delt4Nin3\LaravelDatabaseTriggers\Migrations\MigrationCreator;
      */
     protected $creator;
 

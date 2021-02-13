@@ -1,6 +1,6 @@
 <?php
 
-namespace DariusIII\LaravelDatabaseTrigger\Schema;
+namespace Delt4Nin3\LaravelDatabaseTrigger\Schema;
 
 use Closure;
 use Illuminate\Support\Fluent;
@@ -113,7 +113,7 @@ class Blueprint
     /**
      * Indicate that the trigger needs to be created.
      *
-     * @return \DariusIII\LaravelDatabaseTrigger\Schema\Blueprint
+     * @return \Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint
      */
     public function create()
     {
@@ -126,7 +126,7 @@ class Blueprint
      * Event object table.
      *
      * @param string $eventObjectTable
-     * @return \DariusIII\LaravelDatabaseTrigger\Schema\Blueprint
+     * @return \Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint
      */
     public function on($eventObjectTable)
     {
@@ -139,7 +139,7 @@ class Blueprint
      * Trigger statement.
      *
      * @param Closure $callback
-     * @return \DariusIII\LaravelDatabaseTrigger\Schema\Blueprint
+     * @return \Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint
      */
     public function statement(Closure $callback)
     {
@@ -151,7 +151,7 @@ class Blueprint
     /**
      * Trigger after.
      *
-     * @return \DariusIII\LaravelDatabaseTrigger\Schema\Blueprint
+     * @return \Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint
      */
     public function after()
     {
@@ -163,7 +163,7 @@ class Blueprint
     /**
      * Trigger before.
      *
-     * @return \DariusIII\LaravelDatabaseTrigger\Schema\Blueprint
+     * @return \Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint
      */
     public function before()
     {
