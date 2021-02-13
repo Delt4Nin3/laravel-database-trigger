@@ -2,9 +2,9 @@
 
 namespace Delt4Nin3\LaravelDatabaseTrigger\Migrations;
 
+use Illuminate\Database\Migrations\MigrationCreator as BaseMigrationCreator;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Illuminate\Database\Migrations\MigrationCreator as BaseMigrationCreator;
 
 class MigrationCreator extends BaseMigrationCreator
 {
@@ -17,7 +17,7 @@ class MigrationCreator extends BaseMigrationCreator
     {
         parent::__construct($files, $customStubPath);
     }
-    
+
     /**
      * Create a new migration at the given path.
      *

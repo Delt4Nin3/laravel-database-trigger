@@ -2,10 +2,10 @@
 
 namespace Delt4Nin3\LaravelDatabaseTrigger\Command;
 
-use Illuminate\Support\Str;
-use Illuminate\Support\Composer;
-use Illuminate\Database\Console\Migrations\BaseCommand;
 use Delt4Nin3\LaravelDatabaseTrigger\Migrations\MigrationCreator;
+use Illuminate\Database\Console\Migrations\BaseCommand;
+use Illuminate\Support\Composer;
+use Illuminate\Support\Str;
 
 class TriggerMakeCommand extends BaseCommand
 {

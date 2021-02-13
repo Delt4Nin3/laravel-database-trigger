@@ -2,10 +2,10 @@
 
 namespace Delt4Nin3\LaravelDatabaseTrigger\Test;
 
-use Mockery as m;
-use PHPUnit\Framework\TestCase;
 use Delt4Nin3\LaravelDatabaseTrigger\Schema\Blueprint;
 use Delt4Nin3\LaravelDatabaseTrigger\Schema\Grammars\MySqlGrammar;
+use Mockery as m;
+use PHPUnit\Framework\TestCase;
 
 class MySqlGrammarTest extends TestCase
 {

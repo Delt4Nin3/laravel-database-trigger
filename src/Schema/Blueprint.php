@@ -3,9 +3,9 @@
 namespace Delt4Nin3\LaravelDatabaseTrigger\Schema;
 
 use Closure;
-use Illuminate\Support\Fluent;
 use Illuminate\Database\Connection;
 use Illuminate\Database\Schema\Grammars\Grammar;
+use Illuminate\Support\Fluent;
 
 class Blueprint
 {
